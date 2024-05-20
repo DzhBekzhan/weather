@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather{
+    width: 500px;
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.1);  
+    border-radius: 15px;
+    /* padding: 20px 40px;
+    color: white;
+    position:relative; */
+}
+.weather__out{
+    width: 500px;
+    /* background: #387eba; */
+    border-radius: 15px;
+    padding: 20px 40px;
+    color: white;
+    position:relative;
+}
+.weather__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather h1{
+    text-align: center;
+    margin: 50px 0 100px;
+}
+.weather__bottom{
+    display: flex;
+    justify-content: space-around;
+    /* rgb(23 15 56) */
+    background:rgb(23 15 56) ;
+    /* background-color: rgba(255,255,255,0.06); */
+    /* background: #418dd0; */
+    width: 100%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    border-radius:0 0 15px 15px;
+    padding: 15px 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(9, 0, 44);
+}
+form{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px 0 0 15px ;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  color: white;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 0 15px 15px 0;
+    border: 2px solid rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    color: white;
+
+}
+.weather__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
